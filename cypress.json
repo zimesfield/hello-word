@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://web.facebook.com",
+  "defaultCommandTimeout": 30000,
+  "testFiles": "**/*.feature",
+  "ignoreTestFiles": ["*.js"],
+  "nonGlobalStepDefinitions": true
+}

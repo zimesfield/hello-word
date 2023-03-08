@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testing cypress actions on their page",
+    "line": 1,
+    "id": "testing-cypress-actions-on-their-page",
+    "tags": [],
+    "uri": "site.feature",
+    "elements": [
+      {
+        "id": "testing-cypress-actions-on-their-page;removing-a-bill",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Removing a bill",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am in todo page",
+            "result": {
+              "status": "passed",
+              "duration": 239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I a click on \"Pay electric bill\"",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "\"Pay electric bill\" should be grayed out",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

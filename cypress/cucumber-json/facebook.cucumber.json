@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Facebook Registration and Login",
+    "line": 1,
+    "id": "facebook-registration-and-login",
+    "tags": [],
+    "uri": "facebook.feature",
+    "elements": [
+      {
+        "id": "facebook-registration-and-login;login-with-an-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Login with an invalid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the facebook home page",
+            "result": {
+              "status": "passed",
+              "duration": 1761000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I input my email address or phone number",
+            "result": {
+              "status": "passed",
+              "duration": 186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I input my password",
+            "result": {
+              "status": "passed",
+              "duration": 275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the submit button",
+            "result": {
+              "status": "passed",
+              "duration": 660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see a login failed page",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
